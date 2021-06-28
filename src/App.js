@@ -1,6 +1,9 @@
+// import react from react
+
 import './App.css';
 import CreateUserForm from './CreateUserForm';
 
+// Class App extends component
 function App() {
   console.log('is this thing on??')
   return (
