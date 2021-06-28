@@ -5,6 +5,11 @@ function CreateUserForm() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
+    const handleSubmit = event => {
+        event.preventDefault()
+        console.log(username, password)
+    }
+
     return (
         <form onSubmit={handleSubmit}>
             <input 
