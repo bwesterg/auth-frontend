@@ -6,7 +6,7 @@ function CreateUserForm() {
     const [password, setPassword] = useState('');
 
     return (
-        <form>
+        <form onSubmit={handleSubmit}>
             <input 
                 type="text"
                 name="username"
